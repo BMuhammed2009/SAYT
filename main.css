@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+nav{
+  position: fixed;
+  background: #0000009c;
+  width: 100%;
+  padding: 8px 0;
+  z-index: 10;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 45px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 30px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+.img{
+
+  background: url('first\ img.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ;
+}
+.center .btns button:first-child{
+  color: #fff;
+  background: none;
+}
+.btns button:first-child:hover{
+  background: white;
+  color: black;
+}
+.center .btns button:last-child{
+  background: white;
+  color: black;
+}
+.img-custonize{
+  background: url('img-customize.webp')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img-custonize::before{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 0, 0, 0.4);
+}
+.Choose-glasses-menu-head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-color: brown;
+}
+.Choose-glasses-menu-foot{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-color: brown;
+}
+.img-1-Glasses{
+  display: flex;
+  height: 33vh;
+  transition: 0.8s;
+}
+.img-1-Glasses:hover{
+  display: flex;
+  height: 35vh;
+  transition: 0.8s;
+}
+.img-1-Glasses:hover button{
+  display: inline;
+  position: absolute;
+  background-color: rgba(165, 42, 42, 0.8);
+  border-radius: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 145px;
+  color: rgb(255, 255, 255.0.8);
+  transition: 1.7s;
+}
+.img-2-Glasses{
+  display: flex;
+  height: 33vh;
+  transition: 0.8s;
+}
+.img-2-Glasses:hover{
+  display: flex;
+  height: 35vh;
+  transition: 0.8s;
+}
+.img-2-Glasses:hover button{
+  display: inline;
+  position: absolute;
+  background-color: rgba(165, 42, 42, 0.8);
+  border-radius: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 145px;
+  color: rgb(255, 255, 255.0.8);
+  transition: 1.7s;
+}
+.img-3-Glasses{
+  display: flex;
+  height: 33vh;
+  transition: 0.8s;
+}
+.img-3-Glasses:hover{
+  display: flex;
+  height: 35vh;
+  transition: 0.8s;
+}
+.img-3-Glasses:hover button{
+  display: inline;
+  position: absolute;
+  background-color: rgba(165, 42, 42, 0.8);
+  border-radius: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 145px;
+  color: rgb(255, 255, 255.0.8);
+  transition: 1.7s;
+}
+.img-4-Glasses{
+  display: flex;
+  height: 33vh;
+  transition: 0.8s;
+}
+.img-4-Glasses:hover{
+  display: flex;
+  height: 35vh;
+  transition: 0.8s;
+}
+.img-4-Glasses:hover button{
+  display: inline;
+  position: absolute;
+  background-color: rgba(165, 42, 42, 0.8);
+  border-radius: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 145px;
+  color: rgb(255, 255, 255.0.8);
+  transition: 1.7s;
+}
+.img-5-Glasses{
+  display: flex;
+  height: 33vh;
+  transition: 0.8s;
+}.img-5-Glasses:hover{
+  display: flex;
+  height: 35vh;
+  transition: 0.8s;
+}
+.img-5-Glasses:hover button{
+  display: inline;
+  position: absolute;
+  background-color: rgba(165, 42, 42, 0.8);
+  border-radius: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 145px;
+  color: rgb(255, 255, 255.0.8);
+  transition: 1.7s;
+}
+button{
+  display: none;
+}
+.img-1-Glasses:hover button:hover{
+  display: inline;
+  background-color:brown;
+  border-radius: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 145px;
+  color: rgb(255, 255, 255);
+}
+.img-2-Glasses:hover button:hover{
+  display: inline;
+  background-color:brown;
+  border-radius: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 145px;
+  color: rgb(255, 255, 255);
+}
+.img-3-Glasses:hover button:hover{
+  display: inline;
+  background-color:brown;
+  border-radius: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 145px;
+  color: rgb(255, 255, 255);
+}
+.img-4-Glasses img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.img-4-Glasses:hover button:hover{
+  display: inline;
+  background-color:brown;
+  border-radius: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 145px;
+  color: rgb(255, 255, 255);
+}
+.img-5-Glasses:hover button:hover{
+  display: inline;
+  background-color:brown;
+  border-radius: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 65px;
+  margin-left: 145px;
+  color: rgb(255, 255, 255);
+}
+
+.contact-body{
+  background: url("img-contact.webp") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  font-size: 12pt;
+  font-family: "Spartan";
+  color: #2A293E;
+  padding-bottom: 60px;
+}
+
+.contact-us {
+  width: 50vw;
+  background:  #c2c2be;
+  padding: 50px 100px;
+  margin-top: 60px;
+  border-top: 10px solid #f40202;
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  font-size: 12pt;
+  line-height: 24pt;
+  font-family: "Spartan";
+}
+
+input {
+  margin-bottom: 24pt;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 10pt;
+  line-height: 24pt;
+  font-style: italic;
+}
+
+span {
+  font-size: 8pt;
+}
+
+input, textarea {
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  background:rgb(225, 225, 224);
+  padding-left: 5px;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #ab2727;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact-customerOrder,.btnss {
+  display: block;
+  float: right;
+  line-height: 24pt;
+  padding: 0 20px;
+  border: none;
+  background: #f40202;
+  color: rgb(63, 63, 62);
+  letter-spacing: 2px;
+  transition: 0.7s ;
+  border-bottom: 2px solid transparent;
+  outline: none;
+}
+.contact-customerOrder:hover,.btnss:hover {
+  background: inherit;
+  color: #f40202;
+  border-bottom: 2px solid #f40202;
+  
+}
+*.btnss {
+display: flex;
+align-items: center;
+justify-content: center;
+}
